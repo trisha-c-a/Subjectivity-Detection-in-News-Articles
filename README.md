@@ -8,6 +8,10 @@ This repository explores the application of NLP techniques to identify subjectiv
 * Model Training: Implementation of LSTM and transformer encoder models for subjectivity detection.
 * Model Fine-Tuning: Experimentation with fine-tuning BERT and GPT-2 for improved performance.
 
+## Data
+
+The data has been taken from [A Corpus for Sentence-level Subjectivity Detection on English News Articles](https://arxiv.org/abs/2305.18034). All the data is available in [Data](Data).
+
 ## Results
 
 | **Architecture** | **Parameters (In millions)** | **Accuracy (%) - Preprocessed Data** | **Accuracy (%) - Raw Data** |
@@ -18,3 +22,5 @@ This repository explores the application of NLP techniques to identify subjectiv
 | GPT-2             | 354.824                       | 61.45                                | 61.45                       |
 
 *Table 1: Results on the test corpus*
+
+## Files
