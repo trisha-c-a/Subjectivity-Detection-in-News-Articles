@@ -12,6 +12,15 @@ This repository explores the application of NLP techniques to identify subjectiv
 
 The data has been taken from [A Corpus for Sentence-level Subjectivity Detection on English News Articles](https://arxiv.org/abs/2305.18034). All the data is available in [Data](Data).
 
+Two sets of data splits have been created. The first split, labelled as train/test/val-unprocessed.csv, contains text that has not been preprocessed. The second split contains text that has been preprocessed using the following techniques:
+* Replacing symbols such as $ to "dollar", % to "percentage", numbers to "number"
+* Changing all text to lower-case
+* Punctuation removal
+* Normalization
+* Stemming
+* Lemmatization
+* Stop word removal
+
 ## Results
 
 | **Architecture** | **Parameters (In millions)** | **Accuracy (%) - Preprocessed Data** | **Accuracy (%) - Raw Data** |
