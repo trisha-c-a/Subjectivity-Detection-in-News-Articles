@@ -10,7 +10,7 @@ This repository explores the application of NLP techniques to identify subjectiv
 
 ## Data
 
-The data has been taken from [A Corpus for Sentence-level Subjectivity Detection on English News Articles](https://arxiv.org/abs/2305.18034). All the data is available in [Data](Data).
+The data has been taken from [A Corpus for Sentence-level Subjectivity Detection on English News Articles](https://arxiv.org/abs/2305.18034). All the processed data used for this project is available in [Data](Data).
 
 Two sets of data splits have been created. The first split, labelled as train/test/val-unprocessed.csv, contains text that has not been preprocessed. The second split contains text that has been preprocessed using the following techniques:
 * Replacing symbols such as $ to "dollar", % to "percentage", numbers to "number"
@@ -20,6 +20,13 @@ Two sets of data splits have been created. The first split, labelled as train/te
 * Stemming
 * Lemmatization
 * Stop word removal
+
+## Models
+
+* LSTM: A single layer was used with a hidden dimension of 100. [Code](Models/LSTM.ipynb)
+* Transformer Encoder: A 3-layer encoder with 2 heads was implemented. The dimension of the feed forward network was set to 1024. [Code](Models/Transformer.ipynb)
+* BERT: A pre-trained BERT model (bert-base-uncased) was used. [Code](Models/Finetuned-BERT.ipynb)
+* GPT-2: A pre-trained GPT-2 model (microsoft/DialogRPT-updown" was utilized. [Code](Models/Finetuned-GPT2.ipynb)
 
 ## Results
 
@@ -31,5 +38,3 @@ Two sets of data splits have been created. The first split, labelled as train/te
 | GPT-2             | 354.824                       | 61.45                                | 61.45                       |
 
 *Table 1: Results on the test corpus*
-
-## Files
