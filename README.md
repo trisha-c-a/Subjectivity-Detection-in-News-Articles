@@ -1,6 +1,6 @@
 # Subjectivity-Detection-in-News-Articles
 
-This repository explores the application of NLP techniques to identify subjectivity in news articles. The project encompasses dataset preprocessing, GloVe embedding generation, and the training of two distinct models: Long Short-Term Memory (LSTM) and a transformer encoder. Subsequently, the exploration extends to fine-tuning BERT and GPT-2 for enhanced subjectivity detection, prompted by results from the transformer encoder.
+This repository explores the application of NLP techniques to identify subjectivity in news articles. The project encompasses dataset preprocessing, GloVe embedding generation, and the training of two distinct models: Long Short-Term Memory (LSTM) and a transformer encoder. Subsequently, the exploration extends to fine-tuning BERT and GPT-2 for enhanced subjectivity detection, prompted by results from the transformer encoder. A report detailing the methodologies, experimental setup, and findings of this project is available at [link](https://drive.google.com/file/d/1W81CAJ5pWrmTHcllgn8qZvbNnHwTcdHe/view?usp=drive_link).
 
 ## Key Features
 * Dataset Preprocessing: Comprehensive cleaning and preprocessing of news articles.
