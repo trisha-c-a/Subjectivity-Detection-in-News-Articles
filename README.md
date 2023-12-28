@@ -30,7 +30,7 @@ Two sets of data splits have been created. The first split, labelled as train/te
 
 ## Results
 
-| **Architecture** | **Parameters (In millions)** | **Accuracy (%) - Preprocessed Data** | **Accuracy (%) - Raw Data** |
+| **Architecture** | **Parameters (In millions)** | **Accuracy (%) - Raw Data** | **Accuracy (%) - Preprocessed Data** |
 |:------------------:|:-----------------------------:|:--------------------------------------:|:-----------------------------:|
 | LSTM              | 0.102                         | 61.46                                | 62.5                        |
 | Transformer       | 0.383                         | 62.5                                 | 65.62                       |
